@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    /* Itens em uma linha */
+    overflow-x: auto;
+    /* Scroll horizontal */
+    white-space: nowrap;
+    /* Evita quebra de linha */
+    width: 100%;
+    /* Para ajustar ao tamanho da tela */
+    padding: 10px;
+    /* Espaçamento interno opcional */
+    box-sizing: border-box;
+    /* Inclui padding no tamanho total */
+    justify-content: center;
+    scrollbar-color: #88e4d4 #88e4d4;
+    overflow-y: hidden;
+}
+
+#box {
+    width: 400px;
+    height: 350px;
+    background-color: #195e63;
+    margin-right: 10px;
+    border-radius: 5px;
+    flex-shrink: 0;
+    position: relative;
+    object-fit: cover;
+}
+
+#banner {
+    width: auto;
+    height: 220px;
+}
+
+#desc_pj {
+    background-color: white;
+    width: 100%;
+    height: 130px;
+    border-radius: 0px 0px 5px 5px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+
+}
+
+#desc_pj>h2 {
+    margin-top: -10px;
+}
+
+#desc_pj>#name_project,
+#description_project,
+#tecnologies {
+    padding-left: 5%;
+}
+
+#line {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: #13ffd4;
+}
+
+#line>hr {
+    transform: rotate(91deg);
+}
+
+#line>h1 {
+    font-size: 20px;
+    padding-left: 5%;
+}
+
+#line>img {
+    height: 50px;
+    width: 50px;
+    padding-left: 5%;
+}
+
+#btn_open_project {
+    background-color: #13ffd4;
+    margin: 5%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#btn_open_project>h2 {
+    font-size: 12px;
+    padding: 5%;
+    color: rgb(163, 136, 136);
+}

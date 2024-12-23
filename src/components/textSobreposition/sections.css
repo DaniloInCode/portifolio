@@ -1,0 +1,14 @@
+#about_text {
+    color: #063940;
+    padding-left: 7%;
+    padding-top: 5%;
+}
+
+#container_text {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}

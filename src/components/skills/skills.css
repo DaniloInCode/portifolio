@@ -1,0 +1,49 @@
+#container_skills {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    /* Alinha os itens verticalmente */
+    justify-items: center;
+    /* Centraliza os itens horizontalmente */
+    gap: 5px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+#skill_box {
+    width: 500px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#skill_bar_fill_max {
+    background-color: white;
+    height: 10px;
+    width: 100%;
+    border-radius: 15px;
+    position: relative;
+
+}
+
+#skill_percent {
+    background-color: green;
+    height: 10px;
+    width: 50%;
+    border-radius: 15px;
+    position: absolute;
+}
+
+#props_skills {
+    width: 100%;
+    display: flex;
+    font-size: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+}
